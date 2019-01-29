@@ -1,6 +1,6 @@
-#N canvas 131 29 1521 968 10;
+#N canvas -8 -8 1832 1037 10;
 #X declare -path patch_editor_abs;
-#X obj 21 596 declare -path patch_editor_abs;
+#X obj 21 665 declare -path patch_editor_abs;
 #N canvas 447 50 707 551 patch-editor-do-not-delete 0;
 #X msg 26 128 \; pd dsp 0;
 #X obj 26 34 loadbang;
@@ -1326,7 +1326,7 @@
 #X msg 177 81 0;
 #X msg 83 341 \; pd-main.pd obj 200 200 \$1 \$2;
 #X obj 162 280 nbx 5 14 -1e+037 1e+037 0 1 empty empty empty 0 -8 0
-10 -262144 -1 -1 1 256;
+10 -262144 -1 -1 0 256;
 #X obj 64 387 t b b;
 #X msg 64 509 loadbang;
 #X obj 91 411 s SAVE-S;
@@ -1380,7 +1380,7 @@
 #X msg 177 81 0;
 #X msg 83 341 \; pd-main.pd obj 200 200 \$1 \$2;
 #X obj 162 280 nbx 5 14 -1e+037 1e+037 0 1 empty empty empty 0 -8 0
-10 -262144 -1 -1 1 256;
+10 -262144 -1 -1 0 256;
 #X obj 64 387 t b b;
 #X msg 64 509 loadbang;
 #X obj 91 411 s SAVE-S;
@@ -1814,7 +1814,7 @@
 #X msg 177 81 0;
 #X msg 83 341 \; pd-main.pd obj 200 200 \$1 \$2;
 #X obj 162 280 nbx 5 14 -1e+037 1e+037 0 1 empty empty empty 0 -8 0
-10 -262144 -1 -1 1 256;
+10 -262144 -1 -1 0 256;
 #X obj 64 387 t b b;
 #X msg 64 509 loadbang;
 #X obj 91 411 s SAVE-S;
@@ -1976,7 +1976,7 @@
 #X msg 177 81 0;
 #X msg 83 341 \; pd-main.pd obj 200 200 \$1 \$2;
 #X obj 162 280 nbx 5 14 -1e+037 1e+037 0 1 empty empty empty 0 -8 0
-10 -262144 -1 -1 1 256;
+10 -262144 -1 -1 0 256;
 #X obj 64 387 t b b;
 #X msg 64 509 loadbang;
 #X obj 91 411 s SAVE-S;
@@ -2138,7 +2138,7 @@
 #X msg 177 81 0;
 #X msg 83 341 \; pd-main.pd obj 200 200 \$1 \$2;
 #X obj 162 280 nbx 5 14 -1e+037 1e+037 0 1 empty empty empty 0 -8 0
-10 -262144 -1 -1 2 256;
+10 -262144 -1 -1 1 256;
 #X obj 64 387 t b b;
 #X msg 64 509 loadbang;
 #X obj 91 411 s SAVE-S;
@@ -2302,7 +2302,7 @@
 #X msg 177 81 0;
 #X msg 83 341 \; pd-main.pd obj 200 200 \$1 \$2;
 #X obj 162 280 nbx 5 14 -1e+037 1e+037 0 1 empty empty empty 0 -8 0
-10 -262144 -1 -1 1 256;
+10 -262144 -1 -1 0 256;
 #X obj 64 387 t b b;
 #X msg 64 509 loadbang;
 #X obj 91 411 s SAVE-S;
@@ -2518,7 +2518,7 @@
 #X msg 177 81 0;
 #X msg 83 341 \; pd-main.pd obj 200 200 \$1 \$2;
 #X obj 162 280 nbx 5 14 -1e+037 1e+037 0 1 empty empty empty 0 -8 0
-10 -262144 -1 -1 1 256;
+10 -262144 -1 -1 0 256;
 #X obj 64 387 t b b;
 #X msg 64 509 loadbang;
 #X obj 91 411 s SAVE-S;
@@ -2572,7 +2572,7 @@
 #X msg 177 81 0;
 #X msg 83 341 \; pd-main.pd obj 200 200 \$1 \$2;
 #X obj 162 280 nbx 5 14 -1e+037 1e+037 0 1 empty empty empty 0 -8 0
-10 -262144 -1 -1 1 256;
+10 -262144 -1 -1 0 256;
 #X obj 64 387 t b b;
 #X msg 64 509 loadbang;
 #X obj 91 411 s SAVE-S;
@@ -2626,7 +2626,7 @@
 #X msg 177 81 0;
 #X msg 83 341 \; pd-main.pd obj 200 200 \$1 \$2;
 #X obj 162 280 nbx 5 14 -1e+037 1e+037 0 1 empty empty empty 0 -8 0
-10 -262144 -1 -1 2 256;
+10 -262144 -1 -1 1 256;
 #X obj 64 387 t b b;
 #X msg 64 509 loadbang;
 #X obj 91 411 s SAVE-S;
@@ -3276,7 +3276,7 @@
 #X msg 177 81 0;
 #X msg 83 341 \; pd-main.pd obj 200 200 \$1 \$2;
 #X obj 162 280 nbx 5 14 -1e+037 1e+037 0 1 empty empty empty 0 -8 0
-10 -262144 -1 -1 3 256;
+10 -262144 -1 -1 2 256;
 #X obj 64 387 t b b;
 #X msg 64 509 loadbang;
 #X obj 91 411 s SAVE-S;
@@ -3437,7 +3437,7 @@
 #X msg 177 81 0;
 #X msg 83 341 \; pd-main.pd obj 200 200 \$1 \$2;
 #X obj 162 280 nbx 5 14 -1e+037 1e+037 0 1 empty empty empty 0 -8 0
-10 -262144 -1 -1 1 256;
+10 -262144 -1 -1 0 256;
 #X obj 64 387 t b b;
 #X msg 64 509 loadbang;
 #X obj 91 411 s SAVE-S;
@@ -3491,7 +3491,7 @@
 #X msg 177 81 0;
 #X msg 83 341 \; pd-main.pd obj 200 200 \$1 \$2;
 #X obj 162 280 nbx 5 14 -1e+037 1e+037 0 1 empty empty empty 0 -8 0
-10 -262144 -1 -1 5 256;
+10 -262144 -1 -1 4 256;
 #X obj 64 387 t b b;
 #X msg 64 509 loadbang;
 #X obj 91 411 s SAVE-S;
@@ -4407,7 +4407,7 @@ more elaborate pd-code for deeper control.;
 #X obj 204 151 r open-organelle-map!;
 #X msg 204 198 \; pd-organelle-map vis \$1;
 #X obj 203 272 r open-modules!;
-#N canvas 430 140 624 752 modules 0;
+#N canvas 1065 114 624 752 modules 0;
 #X obj 13 425 cnv 15 180 15 empty empty MODULATION: 10 8 0 12 -158136
 -262144 0;
 #X obj 13 446 bng 15 250 50 0 \$0-create-basic-lfo! empty <--BASIC-LFO
@@ -5438,94 +5438,72 @@ for more details.;
 #X connect 19 0 18 0;
 #X connect 22 0 10 0;
 #X connect 23 0 4 0;
-#X restore 21 618 pd patch-editor-do-not-delete;
-#X text 19 575 DO NOT DELETE THESE OBJECTS:;
-#X obj 21 436 cnv 5 140 130 empty empty AUTOMATONISM 0 12 0 15 -228856
+#X restore 21 687 pd patch-editor-do-not-delete;
+#X text 19 644 DO NOT DELETE THESE OBJECTS:;
+#X obj 21 505 cnv 5 140 130 empty empty AUTOMATONISM 0 12 0 15 -228856
 -66577 0;
-#X obj 22 462 bng 15 250 50 0 open-quick-guide! empty <--QUICK-GUIDE
+#X obj 22 531 bng 15 250 50 0 open-quick-guide! empty <--QUICK-GUIDE
 17 7 0 10 -262144 -1 -1;
-#X obj 22 482 bng 15 250 50 0 open-manual! empty <--MANUAL 17 7 0 10
+#X obj 22 551 bng 15 250 50 0 open-manual! empty <--MANUAL 17 7 0 10
 -262144 -1 -1;
-#X obj 22 500 bng 15 250 50 0 open-modules! empty <--MODULES(esc) 17
+#X obj 22 569 bng 15 250 50 0 open-modules! empty <--MODULES(esc) 17
 7 0 10 -262144 -1 -1;
-#X obj 22 540 bng 15 250 50 0 \$0-reset! empty <--RESET! 17 7 0 10
+#X obj 22 609 bng 15 250 50 0 \$0-reset! empty <--RESET! 17 7 0 10
 -262144 -1 -1;
-#X obj 22 520 bng 15 250 50 0 SAVE-S SAVE-R <--SAVE!(enter) 17 7 0
+#X obj 22 589 bng 15 250 50 0 SAVE-S SAVE-R <--SAVE!(enter) 17 7 0
 10 -262144 -4034 -1;
-#X obj 644 778 dac~;
-#X obj 164 200 adc~;
-#X obj 895 830 tt-OLED;
-#X obj 637 182 tt-knbs~;
-#X obj 456 142 tt-knbs1vo~;
-#X obj 17 150 cnv 15 140 40 empty empty TT_Inputs 20 12 1 14 -4032
+#X obj 665 802 dac~;
+#X obj 164 269 adc~;
+#X obj 1306 894 tt-OLED;
+#X obj 637 251 tt-knbs~;
+#X obj 456 211 tt-knbs1vo~;
+#X obj 17 219 cnv 15 140 40 empty empty TT_Inputs 20 12 1 14 -4032
 -66577 0;
-#X obj 21 845 cnv 15 140 40 empty empty TT_Outputs 20 12 1 14 -4034
+#X obj 21 914 cnv 15 140 40 empty empty TT_Outputs 20 12 1 14 -4034
 -66577 0;
-#X obj 1111 161 tt-dins~;
-#X obj 928 23 tt-btns~;
-#X obj 1275 276 tt-LEDs~;
-#X text 94 223 <----------------------------------------------------------------------------Terminal
+#X obj 963 218 tt-dins~;
+#X obj 1240 267 tt-btns~;
+#X obj 247 722 tt-LEDs~;
+#X text 94 292 <----------------------------------------------------------------------------Terminal
 Tedium INPUTS are above this line ----------------------------------------------------------------------------------->
 ;
-#X text 94 693 <------------------------------------------------------------------------------------------Terminal
+#X text 59 852 <------------------------------------------------------------------------------------------Terminal
 Tedium OUTPUTS are below this line ----------------------------------------------------------------------------------->
 ;
-#X text 198 199 <--Audio inputs;
-#X text 459 61 <--- Open this to see the math behind 1 volt per octave
+#X text 198 268 <--Audio inputs;
+#X text 459 130 <--- Open this to see the math behind 1 volt per octave
 CV Sliders represent knobs 1 through 6 from left to right.;
-#X text 1105 114 <-- These are your 4 TT Gate Inputs;
-#X text 979 721 This is the OLED object courtesy of Old Man Fury -
+#X text 1059 215 <-- These are your 4 TT Gate Inputs;
+#X text 1033 869 This is the OLED object courtesy of Old Man Fury -
 Gerald Stevens. See his GIT HUB(https://github.com/oldmanfury) for
 more info but you can ignore this if you don't have an OLED on your
 TT. ------------------------------------->;
-#X text 703 861 <--- This is the Audio outputs for the Terminal Tedium
+#X text 706 868 <--- This is the Audio outputs for the Terminal Tedium
 "L"and "R" respectively (Technically \, you don't need this as you
 can simply connect to Maestro in Automatonism but I left this to keep
 things easy to understand regarding in's and out's;
-#X text 301 800 <--Your TT LED's & Gates (Das blinkenlights) Please
+#X text 324 871 <--Your TT LED's & Gates (Das blinkenlights) Please
 note \, the 2 red LED's are connected to your gate ourputs on D1 and
 D2. If you want to send gate outs \, ping the first two inlets and
 you will get gates coming out with visual feedback from your LED's
 ;
-#X text 1383 228 <-- These are your 3 TT buttons.;
-#X text 794 239 <--- This is Gerald Stevens' original object. Hang
+#X text 1383 297 <-- These are your 3 TT buttons.;
+#X text 794 308 <--- This is Gerald Stevens' original object. Hang
 on to it as it is really good for any CV that doesn't need to be 1v/o
 ;
-#X text 1184 501 Disclaimer: This pen was stolen from https://github.com/oldmanfury
+#X text 1184 570 Disclaimer: This pen was stolen from https://github.com/oldmanfury
 \, https://github.com/joebauer and https://www.automatonism.com/ I
 just mangled some code from the geniuses and claim no ownership over
 thier work.;
-#X obj 495 485 granular-delay 1;
-#X obj 269 349 mixer2 2;
-#X obj 553 609 xfade 1;
-#X obj 502 672 vca 2;
-#X obj 703 688 vca 2;
-#X obj 697 757 mixer2 2;
-#X obj 861 317 adsr 2;
-#X obj 1147 296 decay 1;
+#X obj 564 545 granular-delay 1;
+#X obj 277 466 mixer2 2;
 #X connect 10 0 31 0;
 #X connect 10 1 31 1;
 #X connect 12 1 30 2;
 #X connect 12 2 30 3;
 #X connect 12 3 30 4;
-#X connect 12 4 32 2;
-#X connect 12 5 33 1;
-#X connect 12 5 34 1;
 #X connect 13 0 30 1;
-#X connect 16 0 36 0;
-#X connect 16 0 18 0;
-#X connect 16 1 37 0;
-#X connect 16 1 18 1;
-#X connect 30 0 32 0;
-#X connect 30 1 32 1;
+#X connect 30 0 9 0;
+#X connect 30 1 9 1;
 #X connect 31 1 30 0;
-#X connect 32 0 33 0;
-#X connect 32 1 34 0;
-#X connect 33 0 9 0;
-#X connect 33 0 35 1;
-#X connect 34 0 9 1;
-#X connect 34 0 35 0;
-#X connect 35 1 11 0;
-#X connect 36 0 30 2;
-#X connect 37 0 30 3;
-#X coords 0 968 1 967 85 60 0;
+#X coords 0 1037 1 1036 85 60 0;
